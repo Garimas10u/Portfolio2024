@@ -28,7 +28,7 @@ const Hero = () => {
           My name is Garima and I specialize in DSA problem solving using C++. I also enjoy building websites with MERN stack. Looking forward to exploring more opportunites and foster new connections.
         </p>
         <div className='my-8 '>
-          <a href="/" className='px-6
+          <a href="file:///D:/Certification/GarimaResume2024.pdf" className='px-6
           py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-pink-500 to-pink-900 text-white'>Resume</a>
 
           <a href="https://www.linkedin.com/in/garimasingh10u/" className="px-6
