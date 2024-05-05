@@ -9,7 +9,6 @@ import mongodb from '../assets/mongo2.png'
 import express from '../assets/Expressjs.png'
 import github from '../assets/github.png'
 import git from '../assets/git1.png'
-
 import cpp from '../assets/cpp.png'
 import clang from '../assets/Clang.png'
 import python from '../assets/python.png'
@@ -21,8 +20,8 @@ import bootstrap from '../assets/bootstrap.png'
 const Skills = () => {
   return (
     <>
-         <h2 className='text-pink-600 md:h-[100px] max-w-[100vw]  bg-slate-900 text-3xl md:text-5xl font-bold py-4 text-center '>My Tech Stack</h2>
-        <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center' >
+         <h2 className='text-pink-600 md:h-[100px] max-w-[100vw] bg-slate-900 text-3xl md:text-5xl font-bold py-4 text-center '>My Tech Stack</h2>
+        <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw] px-16 grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center' >
        
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
@@ -50,7 +49,7 @@ const Skills = () => {
         
    
     </div>
-    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center'>
+    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center px-16'>
   
         <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
             <img src={tailwind} alt="" />
@@ -74,7 +73,7 @@ const Skills = () => {
         </div>
        
     </div>
-    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center' >
+    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center px-16' >
         
         <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
             <img src={git} alt="" />
@@ -100,9 +99,6 @@ const Skills = () => {
         
    
     </div>
-  
-
-
     </>
 
   )

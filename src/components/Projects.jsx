@@ -9,7 +9,7 @@ import tempconv from'../assets/Tempconv.png'
 
 const Projects = () => {
   return (
-    <div className='max-w-[100vw]   p-5 pt-16 bg-slate-900 'id='work'>
+    <div className='max-w-[100vw] px-16 py-5 pt-16 bg-slate-900 'id='work'>
         <div className='pb-8'>
             <p className='py-4 text-pink-600 text-3xl md:text-5xl mb-3 font-bold text-center'>Projects</p>
             <p className='text-gray-400 text-center md:text-2xl'>Check about my projects here</p>
@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className='transform transition-transform duration-300 hover shadow-lg shadow-[
-            #040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative my-6'>
+            #040c16] group container rounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative my-4'>
                 <img src={pulsesync} alt="" layout="fill" object-fit="cover"  />
                 <div className='opacity:0 group-hover:opacity-90 bg-[gray]/50 absolute inset-0 flex flex-col justify-center'>
                     <span className='text-2xl font-bold text-white tracking-wider'></span>

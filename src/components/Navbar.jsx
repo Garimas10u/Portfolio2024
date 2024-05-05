@@ -6,7 +6,7 @@ const Navbar = () => {
         setNav(!nav)
     }
   return (
-    <div className='bg-slate-900 text-gray-400 h-[100px] max-w-[100vw] px-auto flex  justify-between items-center'>
+    <div className='bg-slate-900 text-gray-400 h-[100px] max-w-[100vw] px-16 flex  justify-between items-center'>
         <h1 className='text-3xl font-bold text-pink-600 ml-4'>Garima Singh</h1>
         <ul className='hidden md:flex text-xl'>
             <li className='p-5'><a href="#about">About</a></li>

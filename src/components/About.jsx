@@ -1,11 +1,11 @@
 import React from 'react'
-import aboutimg from '../assets/about2.jpg'
+import aboutimg from '../assets/about.jpg'
 
 const about = () => {
   return (
    <div className='text-white max-w-[100vw]  bg-slate-900 py-12' id='about'  >
-    <div className='md:grid md:grid-cols-2 sm:py-16'>
-        <div className='mt-4 md:mt-0 text-left md:flex md:space-between'>
+    <div className='md:grid md:grid-cols-2 sm:py-16 '>
+        <div className='mt-4 md:mt-0 text-left px-16 md:flex md:space-between'>
             <div className='my-auto mx-6'>
                 <h2 className='text-3xl md:text-5xl text-center font-bold mb-4 text-pink-600'>About Me</h2>
                 <p className='text-base lg:text-lg text-white'>
@@ -16,7 +16,7 @@ const about = () => {
             </div>
           
         </div>
-        <img className='mx-auto rounded-3xl py-8 md:py-0 ' src={aboutimg} alt="aboutimage" width={300} height={300}
+        <img className='mx-auto rounded-3xl py-8 md:py-0' src={aboutimg} alt="aboutimage" width={550} 
              />
     </div>
    </div>
