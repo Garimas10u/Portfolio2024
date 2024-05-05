@@ -13,7 +13,6 @@ import git from '../assets/git1.png'
 import cpp from '../assets/cpp.png'
 import clang from '../assets/Clang.png'
 import python from '../assets/python.png'
-import postman from '../assets/postman.jpg'
 import firebase from '../assets/firebase.png'
 import bootstrap from '../assets/bootstrap.png'
 
