@@ -9,7 +9,7 @@ import tempconv from'../assets/Tempconv.png'
 
 const Projects = () => {
   return (
-    <div className='max-w-[1200px] mx-auto  p-5 pt-16 bg-slate-900 'id='work'>
+    <div className='max-w-[100vw]   p-5 pt-16 bg-slate-900 'id='work'>
         <div className='pb-8'>
             <p className='py-4 text-pink-600 text-3xl md:text-5xl mb-3 font-bold text-center'>Projects</p>
             <p className='text-gray-400 text-center md:text-2xl'>Check about my projects here</p>
