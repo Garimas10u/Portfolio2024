@@ -1,6 +1,7 @@
 import React from 'react'
 import heroimage from "../../src/assets/GarimaProfile.png" 
 import {TypeAnimation} from "react-type-animation";
+import resume from '../../src/assets/resume.pdf'
 
 
 const Hero = () => {
@@ -28,7 +29,7 @@ const Hero = () => {
           My name is Garima and I specialize in DSA problem solving using C++. I also enjoy building websites with MERN stack. Looking forward to exploring more opportunites and foster new connections.
         </p>
         <div className='my-8 '>
-          <a href="file:///D:/Certification/GarimaResume2024.pdf" className='px-6
+          <a href={resume} download="resume" className='px-6
           py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-pink-500 to-pink-900 text-white'>Resume</a>
 
           <a href="https://www.linkedin.com/in/garimasingh10u/" className="px-6
