@@ -6,8 +6,8 @@ import {TypeAnimation} from "react-type-animation";
 const Hero = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[100vw] md:h-[70vh] py-8 px-5 bg-slate-900 md:pb-11' >
-        <div className=' col-span-1 my-auto  h-auto md:w[500px]'>
-            <img src={heroimage} alt="heroimage" />
+        <div className=' col-span-1 my-auto h-auto md:w[500px]'>
+            <img src={heroimage} alt="heroimage"  />
         </div>
         <div className='col-span-2 px-5 my-auto '>
         <h1 className='text-white text-3xl sm:text-4xl lg:text-6xl font-extrabold'>
@@ -24,7 +24,7 @@ const Hero = () => {
  
         </h1>
 
-        <p className='text-white sm:text-lg my-6 lg:text-xl'>
+        <p className='text-white sm:text-lg my-6 lg:text-xl md:mr-8'>
           My name is Garima and I specialize in DSA problem solving using C++. I also enjoy building websites with MERN stack. Looking forward to exploring more opportunites and foster new connections.
         </p>
         <div className='my-8 '>

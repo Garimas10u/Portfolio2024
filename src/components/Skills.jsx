@@ -21,77 +21,77 @@ const Skills = () => {
   return (
     <>
          <h2 className='text-pink-600 md:h-[100px] max-w-[100vw] bg-slate-900 text-3xl md:text-5xl font-bold py-4 text-center '>My Tech Stack</h2>
-        <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw] px-16 grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center' >
+        <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw] px-6 md:px-16 grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center' >
        
 
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={html} alt="" />
             <p className='mt-2'>HTML</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={css} alt="" />
             <p className='mt-2'>CSS</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={js} alt="" />
             <p className='mt-2'>Javascript</p>
         </div>
         
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={react} alt="" />
             <p className='mt-2'>React</p>
         </div>
         
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={bootstrap} alt="" />
             <p className='mt-2'>Bootstrap</p>
         </div>
         
    
     </div>
-    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center px-16'>
+    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center px-6 md:px-16'>
   
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={tailwind} alt="" />
             <p className='mt-4'>Tailwind</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={node} alt="" />
-            <p className='mt-10'>NodeJs</p>
+            <p className='mt-7 md:mt-10'>NodeJs</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[140px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[50px] md:w-[140px] '>
             <img src={express} alt="" />
-            <p className='mt-14'>Expressjs</p>
+            <p className='mt-6'>Express</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[101px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[101px] '>
             <img src={mongodb} alt="" />
-            <p className='mt-4'>MongoDB</p>
+            <p className='mt-3 md:mt-2'>Mongo</p>
         </div>
-        <div className='flex flex-col items-center  md:m-4 sm:my-0 w-[60px] md:w-[90px] '>
+        <div className='flex flex-col items-center  md:m-4 sm:my-0 w-[40px] md:w-[90px] '>
             <img src={cpp} alt="" />
             <p className='mt-2'>C++</p>
         </div>
        
     </div>
-    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center px-16' >
+    <div className='bg-slate-900 text-gray-400 md:h-[150px] max-w-[100vw]  grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center px-6 md:px-16' >
         
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={git} alt="" />
             <p className='mt-2'>Git</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={github} alt="" />
             <p className='mt-2'>Github</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[100px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px] '>
             <img src={firebase} alt="" />
             <p className='mt-2'>Firebase</p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[90px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[90px] '>
             <img src={clang} alt="" />
             <p className='mt-2'>C </p>
         </div>
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[60px] md:w-[90px] '>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[90px] '>
             <img src={python} alt="" />
             <p className='mt-2'>Python </p>
         </div>
