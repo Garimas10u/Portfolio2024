@@ -1,7 +1,7 @@
 import React from 'react'
 import heroimage from "../../src/assets/GarimaProfile.png" 
 import {TypeAnimation} from "react-type-animation";
-import resume from '../../src/assets/resume.pdf'
+import resume from '../../src/assets/'
 
 
 const Hero = () => {
